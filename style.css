@@ -1,0 +1,115 @@
+body{
+  background-color: black;
+}
+
+.video-apresentacao{
+  max-width: 100%;
+}
+
+
+
+li{
+  transition: all 0.6s
+}
+
+li:after{
+  transition: all 0.6s;
+}
+
+li:hover{
+  transform:scale(1.25,1.25);
+}
+
+.redes-sociais{
+  transition: all 0.6s
+}
+
+.redes-sociais:after{
+  transition: all 0.6s;
+}
+
+.redes-sociais:hover{
+  transform:scale(1.25,1.25);
+}
+
+.complemento-header{
+  height: 640px;
+}
+
+.minha-foto{
+  width: 250px;
+  height: 250px;
+}
+
+.texto-quem-sou{
+  max-width: 500px;
+}
+
+.complemento-habilidades1{
+  height: 190px;
+}
+
+.complemento-habilidades2{
+  height: 140px;
+}
+
+.item img{
+  max-width: 150px;
+  border-radius: 20px;
+  transition: all 0.6s;
+  box-shadow: 0px 0px 1em black;
+}
+
+.item:after{
+  transition: all 0.6s;
+}
+
+.item:hover{
+  transform:scale(1.10,1.10);
+}
+
+.habilidades{
+  position: absolute;
+}
+
+
+
+#projeto{
+  max-width: 300px;
+  height: 500px;
+}
+
+/* responsividade*/
+
+@media screen and (max-width:700px){
+  .quem-sou{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      align-items: center;
+      text-align: center;
+
+  }
+
+  .complemento-header{
+    height: 190px;
+  }
+
+  .navbar{
+    background-color: black;
+  }
+
+  .video-apresentacao{
+    margin-top: 40px;
+  }
+
+  
+}
+
+
+
+
+  
+
+
